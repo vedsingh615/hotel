@@ -244,6 +244,91 @@ From Uiverse.io by nikk7007 */
   width: 80%;
   height: 90%;
 }
+@media (max-width: 768px) {
+  .intro-text {
+    top: 115%; /* Adjusted for better spacing on small screens */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 10px;
+  }
+
+  .intro-text h1 {
+    font-size: 28px; /* Smaller font for mobile */
+  }
+
+  .intro-text p {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .introimage {
+    top: 160%; /* Adjusted to fit below the text */
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+@media (max-width: 480px) {
+   .intro-text {
+    top: 120%; /* Adjusted to fit the screen */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 8px;
+  }
+  .intro-text h1 {
+    font-size: 27px;
+  }
+
+  .intro-text p {
+    font-size: 13px;
+  }
+
+  .introimage {
+    top: 170%;
+    width: 100%;
+    height: 70%; /* Maintain aspect ratio */
+  }
+}
+@media (max-width: 360px) {
+  .intro-text {
+    top: 125%; /* Adjusted to fit the screen */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 0 8px;
+  }
+
+  .intro-text h1 {
+    font-size: 25px; /* Smaller heading for small screen */
+    margin-bottom: 15px;
+  }
+
+  .intro-text p {
+   
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+
+  .introimage {
+    top: 170%; /* Reduced for better fit */
+    width: 100%;
+    height: 50%; /* Keep image proportion */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .offer{
   top: 240%;
   font-family:'Times New Roman', Times, serif;
@@ -362,7 +447,7 @@ Generic layout (demo looks)
 }
 @media (max-width: 768px) {
   .offer {
-    top: 235%;
+    top: 199%;
     font-size: 1rem;
     line-height: 1.4rem;
     padding: 1rem;
@@ -448,13 +533,7 @@ Generic layout (demo looks)
     right: 20px;
   }
 
-  .intro-text h1 {
-    font-size: 30px;
-  }
-
-  .intro-text p {
-    font-size: 14px;
-  }
+ 
 
   
 
@@ -488,14 +567,7 @@ Generic layout (demo looks)
     right: 40px;
   }
 
-  .intro-text h1 {
-    font-size: 40px;
-  }
-
-  .intro-text p {
-    font-size: 16px;
-  }
-
+  
   .container > div {
     flex: 0 0 48%;
   }
@@ -510,9 +582,6 @@ Generic layout (demo looks)
     justify-content: center;
   }
 }
-
-
-
 
 .moste{
  
@@ -702,7 +771,7 @@ ul li a:hover {
     font-size: 1.5em;
   }
   .foot{
-    margin-top: 335%;
+    margin-top: 1063%;
     position: absolute;
     width: 100%;
    }
@@ -836,11 +905,12 @@ ul li a:hover {
     flex: 0 0 45%;
   }
   .moste{
+    top: 400%;
     height: 140%;
   }
   .moste h1{
     top: 0px;
-   left: 25%;
+    text-align: center;
   }
   .moste p{
     position:absolute;
@@ -1001,7 +1071,7 @@ ul li a:hover {
 @media (max-width: 768px) {
   .name1{
     position: absolute;
-    top: 487%;
+    top: 489%;
   }
   .name {
    
@@ -1043,10 +1113,14 @@ ul li a:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
+  .name1{
+    position: absolute;
+    top: 537%;
+  }
   .name h1 {
 
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .name p {
@@ -1057,6 +1131,25 @@ ul li a:hover {
     width: 100px;
     height: 80px;
   }
+}
+@media (max-width: 480px){
+  .name1{
+    position: absolute;
+    top: 537%;
+  }
+  .name h1 {
+    font-size: 2.5rem;
+  }
+
+  .name p {
+    font-size: 0.85rem;
+  }
+
+  .all-img img {
+    width: 100px;
+    height: 80px;
+  }
+
 }
 
 
@@ -1169,14 +1262,15 @@ ul li a:hover {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 360px) {
   .location {
-    font-size: 1rem;
-    top: 120%; /* Further adjusted for very small screens */
+    font-size: 1.3rem;
+    top: 719%; /* Further adjusted for very small screens */
   }
-
+  
   .filter-search-input,
   .filter-dropdown {
+  
     font-size: 13px;
     padding: 8px 8px 8px 30px;
   }

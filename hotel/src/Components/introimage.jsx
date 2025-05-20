@@ -3,7 +3,7 @@ import introimage from '../assets/hotel2.jpg';
 
 const Intro = () => {
   return (
-    <div>
+    <div className="intro-container">
       <div className="intro-text">
         <h1>The Art of Royal Living, Perfected</h1>
         <p>
